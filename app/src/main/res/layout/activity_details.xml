@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageViewDetails"
+        android:layout_width="395dp"
+        android:layout_height="715dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="14dp"
+        android:src="@drawable/aang" />
+
+    <TextView
+        android:id="@+id/textViewNameDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="16dp"
+        android:text="Name:"
+        android:textSize="34dp" />
+
+    <TextView
+        android:id="@+id/textViewDescriptionDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewNameDetails"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="18dp"
+        android:text="Description:"
+        android:textSize="16sp" />
+
+    <!-- Add more TextViews for other details if needed -->
+
+</RelativeLayout>
